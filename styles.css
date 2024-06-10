@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://www.todofondos.net/wp-content/uploads/1920x1080-Fondo-azul-cielo.jpg);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  color: #4c7faf;
+}
+
+select, input[type="password"], input[type="number"], button {
+  width: calc(100% - 20px);
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color:  #4c7faf;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#menu button {
+  margin: 5px 0;
+}
+
+#actions {
+  margin-top: 20px;
+}
+
+#actions > div {
+  margin-top: 10px;
+}
+  
